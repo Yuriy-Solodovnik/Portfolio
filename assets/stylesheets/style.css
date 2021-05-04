@@ -1,0 +1,14 @@
+input[type="range"]{
+    background: transparent; 
+  }
+.myFlex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+#ava{
+      border-radius: 100%;
+  }
+ul>li::before {
+    content: "📌" ;
+  }
