@@ -1,4 +1,4 @@
-## Just a little information about me
+P.S. [Move the mouse over the content of the blocks of LIKES and DISLIKES]## Just a little information about me
 My very own personal website. Basically this is just a resume.
 Well, you may be here for three reasons :smile::
 
@@ -7,5 +7,8 @@ Well, you may be here for three reasons :smile::
 - Or you just decided to see how others do a similar task :laughing:
 
 Well, anyway, welcome :wink:!
-To make local copy of this repository use 
+To make local copy of this repository use
+
 `git clone https://github.com/Yuriy-Solodovnik/homepage.git`
+
+P.S. [Move the mouse over the content of the blocks of LIKES or DISLIKES :sunglasses:]
