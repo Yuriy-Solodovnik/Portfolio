@@ -1,0 +1,29 @@
+input[type="range"] {
+  background: transparent;
+}
+
+.myFlex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+#ava {
+  border-radius: 100%;
+}
+
+ul > li::before {
+  content: "📌";
+}
+
+.color.blue::before {
+  background-color: blue;
+}
+
+.color.yellow::before {
+  background-color: yellow;
+}
+
+.color.green::before {
+  background-color: green;
+}
