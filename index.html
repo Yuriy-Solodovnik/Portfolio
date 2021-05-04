@@ -3,6 +3,7 @@
     <head>
       <meta charset="UTF-8" />
       <title>Résumé</title>
+      <link rel="shortcut icon" href="./assets/images/ava.ico" type="image/x-icon">
       <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css">
       <link rel="stylesheet" href="./assets/stylesheets/style.css">
     </head>
@@ -12,7 +13,7 @@
           <div class="page" id="page" style="border-color: blue;">
             <div class="stackable grid">
               <div class="row">
-                <div class="three wide center aligned column">
+                <div class="row">
                   <div class="stackable grid">
                     <img src = "assets/images/ava.png" alt = "my avatar" id="ava">
                   </div>
@@ -184,7 +185,7 @@
                     <p>None published <sup><em>yet</em></sup></p>
                   </section>
                 </div>
-              </div>
+              </div><hr>
               <div class="myFlex">
                 <input type="range" id="color" name="color" min="0" max="255" oninput="changeBackground(this.value)" onchange="changeBackground(this.value)">
                 <div>
