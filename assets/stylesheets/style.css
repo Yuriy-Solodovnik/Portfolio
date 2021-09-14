@@ -10,10 +10,18 @@ input[type="range"] {
 
 #ava {
   border-radius: 100%;
+  width: 110px;
+  height: 150px;
+  padding: 0;
+  margin: 0 50px 0 20px;
 }
 
 ul > li::before {
   content: "📌";
+}
+
+.with-secret {
+  min-height: 52px;
 }
 
 .color.blue::before {
@@ -26,4 +34,41 @@ ul > li::before {
 
 .color.green::before {
   background-color: green;
+}
+
+.color-picker-container {
+  display: flex;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 2pt;
+  box-shadow: 0 0 0 1pt grey;
+  outline: none;
+  margin: 5px;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 5px;
+  height: 25px;
+  border: 0;
+  background-color: rgb(78, 15, 15);
+  color: black;
+  content: 'oE';
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 900px) {
+  article {
+    padding: 1rem 3rem;
+  }
 }
