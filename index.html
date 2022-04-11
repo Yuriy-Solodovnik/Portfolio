@@ -14,10 +14,10 @@
     <article>
       <div class="page color-changeble" id="page" style="border-color: blue;">
         <div class="stackable grid">
-          <div class="row">
-            <div class="row">
+          <div class="row relative">
+              <div class="ava-container">
                 <img src="assets/images/photo-no-background.png" alt="my avatar" id="ava">
-            </div>
+              </div>
             <div class="thirteen wide column">
               <div class="stackable grid">
                 <div class="sixteen wide column">
@@ -109,6 +109,15 @@
                 <h3>Experience</h3>
                 <h6>Now</h6>
                 <ul class="timeline">
+                  <li class="highlighted">
+                    <p><em>11<sup>th</sup> October 2021 &ndash; present</em></p>
+                    <p>Working in
+                      <strong>
+                        <a href="https://qarea.com" rel="external">Qarea</a>
+                      </strong> 
+                      <span> as Full-Stack .NET Developer</span>
+                    </p>
+                  </li>
                   <li class="highlighted">
                     <p><em>1<sup>st</sup> September 2018 &ndash; present</em></p>
                     <p>Student of
@@ -210,6 +219,14 @@
                     </div>
                   </li>
                   <li>
+                    <div><em>June &ndash; September</em></div>
+                    <div>Full-Stack .NET Student at
+                      <strong>
+                        <a href="https://academy.binary-studio.com/" rel="external">Binary Studio Academy</a>
+                      </strong>
+                    </div>
+                  </li>
+                  <li>
                     <div><em>1<sup>st</sup> September 2007 &ndash; 23<sup>rd</sup> June 2018</em></div>
                     <div><strong>Studied at <a href="https://schoolapan.wixsite.com/panschool1" rel="external">Panyutyn
                           Lyceum</a></strong></div>
@@ -228,8 +245,8 @@
           </div>
           <hr>
           <div class="myFlex">
-            <div class="color-picker-container">&#9790;<input class="slider" value="15" type="range" id="color" name="color" min="0" max="15"
-                oninput="changeBackground(this.value)" onchange="changeBackground(this.value)">&#9788;</div>
+            <div class="color-picker-container">&#9790;<input class="slider" value="3" type="range" id="color" name="color" min="0" max="15"
+                oninput="changeBackground(this.value)" oninput="changeBackground(this.value)">&#9788;</div>
             <div>
               <button id="blue" class="color blue" onclick="makeBorderBlue()"></button>
               <button id="green" class="color green" onclick="makeBorderGreen()"></button>
