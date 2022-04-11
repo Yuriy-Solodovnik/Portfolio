@@ -22,6 +22,8 @@ function makeBorderYellow() {
     document.getElementById('page').style.borderColor = 'yellow';
 }
 
+window.onload = changeBackground(3);
+
 document.getElementById('likes').onmouseenter = function () {
     likesTexst = this.textContent;
     this.innerHTML = '&#127822; &#127828; &#9917; &#127952; &#127936; &#129461; &#127928; &#128021 &#128665; &#128250;';
